@@ -1,6 +1,8 @@
 # Add  code here!
 def prime?(num)
-  num = num.abs
+  if num < 0 
+    num = num * -1
+  end
   range = 2..num-1
   puts range
   for x in range
