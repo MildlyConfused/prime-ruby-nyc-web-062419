@@ -5,9 +5,11 @@ def prime?(num)
   puts range
   for x in range
     if num % x == 0 
+      puts false
       return false 
     end
   end
+  puts true
   return true
 end
 
