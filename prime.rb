@@ -15,4 +15,4 @@ def prime?(num)
   return true
 end
 
-prime?(-1)
+prime?(-2)
